@@ -134,6 +134,7 @@
 	<Links>
 		<Link href="https://github.com/nmcveity" text="GitHub">A few code samples on github, including scripts to generate this page</Link>
 		<Link href="http://www.linkedin.com/profile/view?id=97040054&amp;trk=tab_pro" text="Linked-in">Public linked in profile</Link>
+		<Link href="https://github.com/nmcveity/Resume" text="Resume">The scripts used to generate and upload this resume (XML, XSL, python/boto/s3)</Link>
 	</Links>
 	<Gallery>
 		<Image name="Puzzle Quest II (Steam)">PQ2_Steam.jpg</Image> 
