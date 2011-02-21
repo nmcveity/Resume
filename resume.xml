@@ -14,6 +14,7 @@
 			<Role>Lead Programmer</Role>
 			<Period>2008-2011</Period>
 			<Description>
+				<p>Lead Programmer on Puzzle Quest 2, shipped on PC, Steamworks, Nintendo DS, Microsoft Xbox 360 and PlayStation Portable.  Responsibilities included:</p>
 				<ul>
 					<li>Implemented most of the core gameplay systems - items, spells, hero progression, etc...</li>
 					<li>Managed a team of 4 programmers across multiple languages (C++, Lua and Python)</li>
@@ -104,7 +105,7 @@
 		</Interest>
 		<Interest>Gardening
 			<Photo>Pumpkins.JPG</Photo>
-			<Photo>Pumpkins.JPG</Photo>
+			<Photo>Vegetables.JPG</Photo>
 		</Interest>
 		<Interest>Music
 			<Photo>Stage.jpg</Photo>

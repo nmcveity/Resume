@@ -26,9 +26,6 @@ if options.accesskey is None:
 if options.secret is None:
 	parser.error("You need to specify an --secret option")
 
-# "AKIAJLIQWT7ZTYZN36HQ"
-# "WjtFyxQBtfG+HwbgZhnrTenhNL1UayW/Ud9S0bnu"
-
 conn = S3Connection(options.accesskey, options.secret)
 bucket = conn.create_bucket(options.bucket)
 
