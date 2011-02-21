@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="resume.xsl"?>
+<Resume>
+	<Contact>
+		<FirstName>Nicholas</FirstName>
+		<Surname>McVeity</Surname>
+		<Email>nmcveity at gmail dot com</Email>
+		<Portrait>portrait.jpg</Portrait>
+	</Contact>
+	<History>
+		<Job>
+			<Employer>Infinite Interactive</Employer>
+			<EmployerURL>http://www.infinite-interactive.com</EmployerURL>
+			<Role>Lead Programmer</Role>
+			<Period>2008-2011</Period>
+			<Description>
+				<ul>
+					<li>Implemented most of the core gameplay systems - items, spells, hero progression, etc...</li>
+					<li>Managed a team of 4 programmers across multiple languages (C++, Lua and Python)</li>
+					<li>Responsible for the successful delivery of milestones across 5 diverse platforms</li>
+					<li>Liaised with external publishers and platform providers to resolve scheduling issues</li>
+					<li>Implemented many in house tools using .NET and Python including key tools like the Level Editor</li>
+					<li>Integration of game into online platforms such as Steamworks and Xbox Live Arcade</li>
+				</ul>
+				<p>Additional programming for Puzzle Quest: Galactrix, Neopets: Puzzle Adventure, Puzzle Kingdoms and Dragon Rush</p>
+			</Description>
+		</Job>
+		<Job>
+			<Employer>Tantalus Media (formerly Tantalus Interactive)</Employer>
+			<EmployerURL>http://www.tantalus.com.au/</EmployerURL>
+			<Role>Lead Programmer</Role>
+			<Role>Senior Programmer</Role>
+			<Period>2004-2008</Period>
+			<Description>
+				<p>Lead Programmer on an unrealised Nintendo Wii project, responsibilities included:</p>
+				<ul>
+					<li>Evaluation and selection of potential middle-ware and tool solutions on Wii and PC</li>
+					<li>Managing a team of 6 programmers</li>
+					<li>Evaluation and ongoing education of programming team through code reviews</li>
+					<li>Development of new internal build and tool technologies via Python and SCons</li>
+					<li>Integration of existing scripting language (Lua) as primary game development language</li>
+					<li>Assisting Producer with milestone schedule as well as programming risk management</li>
+				</ul>
+				<p>Lead Programmer for Pony Friends on the DS. Responsibilities included:</p>
+					<ul>
+						<li>Managing a team of 4-6 programmers</li>
+						<li>Development of build and art pipelines integrating Maya, make and legacy in-house tools</li>
+						<li>Implementation of submission and TRC compliance (game accepted on first submission)</li>
+						<li>Involvement in the programming of various low level systems as well as game logic implementation</li>
+					</ul>
+				<p>Senior Programmer on SpongeBob: The Yellow Avenger on DS and PSP.</p>
+			</Description>
+		</Job>
+		<Job>
+			<Employer>Infinite Interactive</Employer>
+			<EmployerURL>http://www.infinite-interactive.com</EmployerURL>
+			<Role>Programmer</Role>
+			<Period>Earlier</Period>
+			<Description>
+				Programming for Warlords Battlecry III (PC), Warlords IV (PC).
+			</Description>
+		</Job>
+	</History>
+	<Skills>
+		<Skill name="C/C++">Very extensive experience on platforms from PC and Xbox to Nintendo DS (an embedded ARM based system).  Very familiar with related technologies such as STL, boost, DirectX and Windows.</Skill>
+		<Skill name="Python">Very extensive experience using Python for command line tools and build systems.</Skill>
+		<Skill name="Lua">Very extensive experience both embedding and programming.</Skill>
+		<Skill name="C#/.NET">Extensive experience using C# for tools requiring user interaction such as level editors.</Skill>
+		<Skill name="XML Technologies">Extensive experience with XML, XPath and XSL.</Skill>
+		<Skill name="CruiseControl.NET">Extensive experience managing Cruise Control .NET Continuous Integration servers.</Skill>
+		<Skill name="Maya" />
+		<Skill name="Linux / Unix" />
+		<Skill name="GNU tools" />
+		<Skill name="PHP" />
+		<Skill name="SQL" />
+		<Skill name="ActionScript" />
+		<Skill name="Flash" />
+		<Skill name="Antlr" />
+		<Skill name="HTML" />
+		<Skill name="CSS" />
+	</Skills>
+	<Education>
+		<Qualification>
+			<Name>Bachelor of Applied Science (Computer Science)</Name>
+			<Institution>Royal Melbourne Institute of Technology</Institution>
+			<InstitutionURL>http://www.rmit.edu.au</InstitutionURL>
+			<Period>1999-2001</Period>
+		</Qualification>
+		<Qualification>
+			<Name>RMIT Computer Science Prize of Excellence</Name>
+			<Institution>Royal Melbourne Institute of Technology</Institution>
+			<InstitutionURL>http://www.rmit.edu.au</InstitutionURL>
+			<Period>2000</Period>
+		</Qualification>
+	</Education>
+	<Interests>
+		<Interest>Software Engineering</Interest>
+		<Interest>Lua (programming language)</Interest>
+		<Interest>Python (programming language)</Interest>
+		<Interest>Football</Interest>
+		<Interest>Cooking
+			<Photo>RavioliMaking.JPG</Photo>
+			<Photo>RavioliMade.JPG</Photo>
+		</Interest>
+		<Interest>Gardening
+			<Photo>Pumpkins.JPG</Photo>
+			<Photo>Pumpkins.JPG</Photo>
+		</Interest>
+		<Interest>Music
+			<Photo>Stage.jpg</Photo>
+			<Photo>Stage2.jpg</Photo>
+		</Interest>
+	</Interests>
+	<References>
+		<Reference>
+			<Name>Steve Fawkner</Name>
+			<Role>CEO &amp; Lead Designer</Role>
+			<RoleCompany>Infinite Interactive</RoleCompany>
+			<RoleCompanyURL/>
+			<Now/>
+			<NowCompany>Firemint</NowCompany>
+			<NowCompanyURL>http://www.firemint.com.au</NowCompanyURL>
+		</Reference>
+		<Reference>
+			<Name>John Szoke</Name>
+			<Role>Senior Producer</Role>
+			<RoleCompany>Tantalus Interactive</RoleCompany>
+			<RoleCompanyURL/>
+			<Now>External Producer</Now>
+			<NowCompany>Codemasters</NowCompany>
+			<NowCompanyURL/>
+		</Reference>
+	</References>
+	<Links>
+		<Link href="https://github.com/nmcveity" text="GitHub">A few code samples on github, including scripts to generate this page</Link>
+		<Link href="http://www.linkedin.com/profile/view?id=97040054&amp;trk=tab_pro" text="Linked-in">Public linked in profile</Link>
+	</Links>
+	<Gallery>
+		<Image name="Puzzle Quest II (Steam)">PQ2_Steam.jpg</Image> 
+		<Image name="Puzzle Quest II (NDS)">PQ2_NDS.jpg</Image> 
+		<Image name="Puzzle Quest II (XBLA)">PQ2_XBLA.jpg</Image> 
+		<Image name="Pony Friends (NDS)">PF_NDS.jpg</Image> 
+		<Image name="SpongeBob: The Yellow Avenger (PSP)">SBYA_PSP.jpg</Image> 
+		<Image name="SpongeBob: The Yellow Avenger (NDS)">SBYA_NDS.jpg</Image> 
+		<Image name="Warlords Battlecry III (PC)">WBC3_PC.jpg</Image> 
+		<Image name="Warlords IV (PC)">W4_PC.jpg</Image> 
+	</Gallery>
+</Resume>

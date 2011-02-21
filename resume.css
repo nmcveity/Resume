@@ -1,0 +1,49 @@
+table.caption-bottom 
+{
+	caption-side: bottom;
+}
+
+.resume
+{
+	font-family: "Consolas", "Courier New", Courier, mono, serif;
+	font-size: 16px;
+	background-color: #E7E5DC;
+	padding-top: 1px; /* adds a little border on top when controls are hidden */
+	width: 50%;
+}
+
+table td
+{
+	padding: 5px;
+}
+
+table
+{
+	width: 100%;
+}
+
+td.strong
+{
+	font-weight:bold;
+}
+
+p.document
+{
+	width:60%;
+}
+
+table.border
+{
+	border: 1px solid grey;
+	border-collapse: collapse;
+}
+
+td.border
+{
+	border: 1px solid grey;
+}
+
+img.gallery
+{
+	padding: 5px;
+}
