@@ -2,19 +2,10 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 	<xsl:template match="/">
-		<html>
-		<head>
-			<meta name="robots" content="noindex" />
-			<title><xsl:value-of select="/Resume/Contact[1]/FirstName/text()"/><xsl:text> </xsl:text><xsl:value-of select="/Resume/Contact[1]/Surname/text()"/><xsl:text> - Resume</xsl:text></title>
-			<link rel="stylesheet" type="text/css" href="resume.css" />
-		</head>
-		<body class="resume">
-			<h1><xsl:value-of select="/Resume/Contact[1]/FirstName/text()"/><xsl:text> </xsl:text><xsl:value-of select="/Resume/Contact[1]/Surname/text()"/></h1>
-			<p class="document">
-				<xsl:apply-templates />
-			</p>
-		</body>
-		</html>
+		<h1><xsl:value-of select="/Resume/Contact[1]/FirstName/text()"/><xsl:text> </xsl:text><xsl:value-of select="/Resume/Contact[1]/Surname/text()"/></h1>
+		<p class="document" id="target">
+			<xsl:apply-templates />
+		</p>
 	</xsl:template>
 
 	<xsl:template match="Contact">
@@ -42,7 +33,7 @@
 				</tr>
 				<tr>
 					<td colspan="2" class="border">
-						<xsl:copy-of select="Description" />
+						<xsl:copy-of select="Description/*" />
 					</td>
 				</tr>
 			</xsl:for-each>

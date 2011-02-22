@@ -1,7 +1,61 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
-<head>
+<head id="head">
+<meta name="robots" content="noindex" />
 <title>Nicholas McVeity - Resume</title>
-<meta http-equiv="REFRESH" content="0;url=resume.xml"></HEAD>
-<body/>
-</HTML>
+<link rel="stylesheet" type="text/css" href="resume.css" />
+<script>
+function loadXMLDoc(dname)
+{
+	if (window.XMLHttpRequest)
+	{
+		xhttp=new XMLHttpRequest();
+	}
+	else
+	{
+		xhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	}
+	
+	xhttp.open("GET",dname,false);
+	xhttp.send("");
+	
+	return xhttp.responseXML;
+}
+
+function displayResult()
+{
+	if (!window.ActiveXObject && (typeof XSLTProcessor == "undefined"))
+	{
+		// A broken XSLT implementation ala Android lameness
+		meta = document.createElement("meta")
+		meta.setAttribute("http-equiv", "REFRESH")
+		meta.setAttribute("content", "0;url=resume_transformed.html")
+		
+		document.getElementById("head").appendChild(meta)
+	}
+	else
+	{
+		xml=loadXMLDoc("resume.xml");
+		xsl=loadXMLDoc("resume.xsl");
+		
+		// code for IE
+		if (window.ActiveXObject)
+		{
+			ex=xml.transformNode(xsl);
+			document.getElementById("holder").innerHTML = ex;
+		}
+		// code for Mozilla, Firefox, Opera, etc.
+		else if (document.implementation && document.implementation.createDocument)
+		{
+			xsltProcessor=new XSLTProcessor();
+			xsltProcessor.importStylesheet(xsl);
+			resultDocument = xsltProcessor.transformToFragment(xml,document);
+			document.getElementById("holder").appendChild(resultDocument);
+		}
+	}
+}
+</script>
+</head>
+<body onload="displayResult()" class="resume">
+<div id="holder" class="document" />
+</body>
+</html>

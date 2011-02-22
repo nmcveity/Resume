@@ -9,7 +9,6 @@ table.caption-bottom
 	font-size: 16px;
 	background-color: #E7E5DC;
 	padding-top: 1px; /* adds a little border on top when controls are hidden */
-	width: 50%;
 }
 
 table td
@@ -27,9 +26,9 @@ td.strong
 	font-weight:bold;
 }
 
-p.document
+.document
 {
-	width:60%;
+	max-width:1024px;
 }
 
 table.border
